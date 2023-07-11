@@ -1,6 +1,7 @@
 import React from 'react';
 import {spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {FONT_FAMILY} from './constants';
+import "../style.css";
 
 const title = {
 	fontFamily: FONT_FAMILY,
@@ -39,10 +40,9 @@ export const Title = ({titleText, titleColor}) => {
 
 				return (
 					<span
-						key={t}
+						key={t} 
 						style={{
 							...word,
-							color: titleColor,
 							transform: `scale(${scale})`,
 						}}
 					>

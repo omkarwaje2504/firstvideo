@@ -19,7 +19,9 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "@remotion/tailwind": "^4.0.5",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2"
   },
   "packageManager": "npm@9.6.6"
 }
