@@ -1,5 +1,6 @@
 import {Composition} from 'remotion';
 import {HelloWorld} from './HelloWorld';
+import {Independence} from './Independence';
 import {Logo} from './HelloWorld/Logo';
 import "./style.css";
 
@@ -26,8 +27,8 @@ export const RemotionRoot = () => {
 			/>
 			{/* Mount any React component to make it show up in the sidebar and work on it individually! */}
 			<Composition
-				id="OnlyLogo"
-				component={Logo}
+				id="Independence"
+				component={Independence}
 				durationInFrames={150}
 				fps={30}
 				width={1920}
