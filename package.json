@@ -4,24 +4,24 @@
   "description": "My Remotion video",
   "scripts": {
     "start": "remotion studio",
-    "build": "remotion render HelloWorld out/video.mp4 doctor.json",
+    "build": "remotion render Animation out/video.mp4 ",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx"
   },
   "repository": {},
   "license": "UNLICENSED",
   "dependencies": {
-    "@remotion/cli": "4.0.46",
-    "@remotion/zod-types": "4.0.46",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "remotion": "4.0.46",
-    "zod": "^3.21.4"
+    "@remotion/cli": "4.0.51",
+    "@remotion/zod-types": "4.0.51",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "remotion": "4.0.51",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@remotion/tailwind": "4.0.46",
-    "prettier": "^2.8.8",
-    "tailwindcss": "^3.3.2"
+    "@remotion/tailwind": "4.0.51",
+    "prettier": "2.8.8",
+    "tailwindcss": "3.3.2"
   },
   "packageManager": "npm@9.6.6"
 }
